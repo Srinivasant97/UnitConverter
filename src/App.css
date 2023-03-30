@@ -1,5 +1,9 @@
 .App {
+  height: 100vh;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -35,4 +39,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.unitconverter-container{
+  min-width: 400px;
+  border: 1px solid #dadce0;
+  border-radius: 5px;
+  padding: 10px;
+
+}
+
+.from-container{
+  margin-top: 30px;
+  display: flex;
+  flex-flow: column;
+}
+.units-heading{
+  text-align: start;
+}
+
+.dropdown-wrapper{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+.dropdown-selector2{
+  margin-left: 10px;
+}
+
+.submit-button{
+  margin-top: 20px;
+}
+
+.unit-converter-answer{
+  margin-top: 20px;
+}
+#dropdown-basic{
+  width: 150px;
 }
